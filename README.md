@@ -37,7 +37,7 @@
 
 **TraceFinder** is a cutting-edge forensic tool that answers one critical question:
 
-> ### *"Which scanner was used to create this document?"*
+> *Which scanner was used to create this document?"*
 
 Every scanner leaves behind a unique **digital fingerprint** — subtle noise patterns, sensor artifacts, and frequency signatures that are invisible to the naked eye but detectable by AI.
 
@@ -84,24 +84,36 @@ Verify that court-submitted scanned documents came from authorized, known device
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/-🧠-blueviolet?style=for-the-badge" alt="icon"><br>
-<b>Hybrid CNN</b><br>
+
+### 🧠
+**Hybrid CNN**
+<br>
 <sub>Deep residual learning + handcrafted features</sub>
+
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/-📉-blue?style=for-the-badge" alt="icon"><br>
-<b>PRNU Analysis</b><br>
+
+### 📉
+**PRNU Analysis**
+<br>
 <sub>Photo-Response Non-Uniformity fingerprinting</sub>
+
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/-🌊-teal?style=for-the-badge" alt="icon"><br>
-<b>FFT + Wavelet</b><br>
+
+### 🌊
+**FFT + Wavelet**
+<br>
 <sub>Frequency domain forensics</sub>
+
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/-🔍-orange?style=for-the-badge" alt="icon"><br>
-<b>Grad-CAM</b><br>
+
+### 🔍
+**Grad-CAM**
+<br>
 <sub>Explainable AI visualization</sub>
+
 </td>
 </tr>
 </table>
