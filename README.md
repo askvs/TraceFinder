@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=🔍%20TraceFinder&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI-Powered%20Forensic%20Scanner%20Identification&descAlignY=52&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=A00CAA,0D8C98&height=180&section=header&text=🔍%20TraceFinder&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI-Powered%20Forensic%20Scanner%20Identification&descAlignY=52&descSize=18" width="100%"/>
 </p>
 
 <!-- Badges Row 1 -->
@@ -498,7 +498,7 @@ This project is licensed under the Infosys License.
 
 <!-- Footer -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=A00CAA,0D8C98&height=100&section=footer" width="100%"/>
 </p>
 
 <p align="center">
