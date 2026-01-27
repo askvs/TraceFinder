@@ -330,28 +330,77 @@ Then open your browser to `http://localhost:8501`
 
 ```
 TraceFinder/
-├── 📄 landing_page.py      # Streamlit web app
-├── 📄 model_inference.py   # Unified model interface
-├── 📄 requirements.txt     # Dependencies
+│
+├── 📄 landing_page.py          # Main Streamlit web application
+├── 📄 model_inference.py       # Unified inference API for all models
+├── 📄 requirements.txt         # Python dependencies
 │
 ├── 📁 codes/
-│   ├── baseline/           # SVM & Random Forest
-│   ├── cnn_model/          # Standalone PyTorch CNN
-│   └── hybrid_cnn/         # TensorFlow Hybrid CNN
+│   ├── 📁 baseline/
+│   │   ├── train_baseline.py       # Train SVM & Random Forest
+│   │   ├── evaluate_baseline.py    # Evaluate baseline models
+│   │   ├── predict_baseline.py     # Prediction utilities
+│   │   ├── models.py               # Model definitions
+│   │   └── tuning.py               # Hyperparameter tuning
+│   │
+│   ├── 📁 cnn_model/
+│   │   ├── model.py                # PyTorch CNN architecture
+│   │   ├── dataset.py              # Dataset loader
+│   │   ├── train.py                # Training script
+│   │   └── evaluate.py             # Evaluation metrics
+│   │
+│   ├── 📁 hybrid_cnn/
+│   │   ├── train_hybrid_cnn.py     # Train Hybrid CNN model
+│   │   ├── eval_hybrid_cnn.py      # Evaluation with metrics
+│   │   ├── gradcam.py              # Grad-CAM visualization
+│   │   └── processing.py           # Feature preprocessing
+│   │
+│   ├── 📁 eda/
+│   │   ├── eda_official.py         # EDA on official dataset
+│   │   └── eda_wikipedia.py        # EDA on Wikipedia dataset
+│   │
+│   └── preprocess_combined.py      # Combined preprocessing pipeline
 │
 ├── 📁 models/
-│   ├── baseline/           # Trained RF & SVM models
-│   ├── cnn/                # PyTorch CNN weights
-│   └── hybrid_cnn/         # Keras model + scalers
+│   ├── 📁 baseline/
+│   │   ├── random_forest.joblib    # Trained Random Forest (~2 MB)
+│   │   ├── svm.joblib              # Trained SVM model
+│   │   └── scaler.joblib           # Feature scaler
+│   │
+│   ├── 📁 cnn/
+│   │   └── cnn_model.pth           # PyTorch CNN weights (~64 MB)
+│   │
+│   └── 📁 hybrid_cnn/
+│       ├── scanner_hybrid.keras    # Keras Hybrid CNN model
+│       ├── hybrid_label_encoder.pkl # Label encoder
+│       └── hybrid_feat_scaler.pkl  # Feature scaler
 │
 ├── 📁 results/
-│   └── hybrid_cnn/         # Training plots & metrics
+│   ├── 📁 baseline/
+│   │   ├── Random_Forest_confusion_matrix.png
+│   │   └── SVM_confusion_matrix.png
+│   │
+│   ├── 📁 cnn/
+│   │   ├── confusion_matrix.png
+│   │   └── training_curves.png
+│   │
+│   ├── 📁 hybrid_cnn/
+│   │   ├── confusion_matrix.png
+│   │   ├── training_plot.png
+│   │   └── 📁 gradcam/             # Grad-CAM heatmaps
+│   │
+│   └── 📁 eda/
+│       ├── 📁 official/            # Official dataset analysis
+│       └── 📁 wikipedia/           # Wikipedia dataset analysis
 │
-└── 📁 samples/             # Sample scanner images
+└── 📁 samples/                     # Test images for each scanner
     ├── Canon120-1_sample.jpg
+    ├── Canon9000-1_sample.jpg
+    ├── Canon9000-2_sample.jpg
+    ├── EpsonV370-1_sample.jpg
+    ├── EpsonV39-1_sample.jpg
     ├── EpsonV550_sample.jpg
-    ├── HP_sample.jpg
-    └── ...
+    └── HP_sample.jpg
 ```
 
 ---
