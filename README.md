@@ -127,24 +127,40 @@ Verify that court-submitted scanned documents came from authorized, known device
 <table>
 <tr>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/📄-INPUT-2196F3?style=flat-square" alt="input"><br><br>
-Upload scanned document<br>
+<img src="https://img.shields.io/badge/-2196F3?style=flat-square" width="100%" height="5">
+<br><br>
+<b>📄 INPUT</b>
+<br><br>
+Upload scanned document
+<br>
 <code>JPG</code> <code>PNG</code> <code>TIFF</code>
 </td>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/⚙️-PREPROCESS-9C27B0?style=flat-square" alt="preprocess"><br><br>
+<img src="https://img.shields.io/badge/-9C27B0?style=flat-square" width="100%" height="5">
+<br><br>
+<b>⚙️ PREPROCESS</b>
+<br><br>
 Grayscale → Resize → Wavelet Denoise
 </td>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/📊-EXTRACT-FF9800?style=flat-square" alt="extract"><br><br>
-44 forensic features extracted
+<img src="https://img.shields.io/badge/-FF9800?style=flat-square" width="100%" height="5">
+<br><br>
+<b>📊 EXTRACT</b>
+<br><br>
+Noise residual + 44 forensic features
 </td>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/🧠-CLASSIFY-E91E63?style=flat-square" alt="classify"><br><br>
-Hybrid CNN / SVM / RF
+<img src="https://img.shields.io/badge/-E91E63?style=flat-square" width="100%" height="5">
+<br><br>
+<b>🧠 CLASSIFY</b>
+<br><br>
+Hybrid CNN / SVM / Random Forest
 </td>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/✅-OUTPUT-4CAF50?style=flat-square" alt="output"><br><br>
+<img src="https://img.shields.io/badge/-4CAF50?style=flat-square" width="100%" height="5">
+<br><br>
+<b>✅ OUTPUT</b>
+<br><br>
 Scanner ID + Confidence %
 </td>
 </tr>
