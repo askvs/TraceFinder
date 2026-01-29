@@ -496,10 +496,6 @@ This project is licensed under the Infosys License.
 
 ---
 
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D500F9,100:00E5FF&height=100&section=footer&v=2" width="100%"/>
-</p>
 
 <p align="center">
   <b>TraceFinder</b> — Where every scan leaves a trace 🔍
@@ -507,4 +503,8 @@ This project is licensed under the Infosys License.
 
 <p align="center">
   Made with ❤️ by Vikash Sharma for Digital Forensics
+</p>
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D500F9,100:00E5FF&height=100&section=footer&v=2" width="100%"/>
 </p>
