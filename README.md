@@ -21,6 +21,7 @@
 
 <!-- Quick Links -->
 <p align="center">
+  <a href="https://huggingface.co/spaces/askvs/tracefinder"><img src="https://img.shields.io/badge/🎮-Live_Demo-FF6B35?style=for-the-badge" alt="Live Demo"></a>
   <a href="#-key-features"><img src="https://img.shields.io/badge/✨-Features-blue?style=for-the-badge" alt="Features"></a>
   <a href="#-how-it-works"><img src="https://img.shields.io/badge/🚀-How%20It%20Works-orange?style=for-the-badge" alt="How It Works"></a>
   <a href="#-model-performance"><img src="https://img.shields.io/badge/📊-Results-green?style=for-the-badge" alt="Results"></a>
@@ -298,6 +299,43 @@ Haar L1 decomposition extracts scanner-specific noise
 
 ## 🖥️ Live Demo
 
+<!-- Try It Now Banner -->
+<p align="center">
+  <a href="https://huggingface.co/spaces/askvs/tracefinder" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_TRY_IT_NOW-Live_on_Hugging_Face-FF6B35?style=for-the-badge&logoColor=white" alt="Try It Now">
+  </a>
+</p>
+
+<table>
+<tr>
+<td align="center" colspan="2">
+
+### 🌐 Deployed on Hugging Face Spaces
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/askvs/tracefinder" target="_blank">
+    <img src="https://img.shields.io/badge/🤗_Hugging_Face-Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Spaces">
+  </a>
+  <a href="https://huggingface.co/spaces/askvs/tracefinder" target="_blank">
+    <img src="https://img.shields.io/badge/Status-Live_🟢-success?style=for-the-badge" alt="Status Live">
+  </a>
+  <a href="https://huggingface.co/spaces/askvs/tracefinder" target="_blank">
+    <img src="https://img.shields.io/badge/No_Install-Required-blue?style=for-the-badge" alt="No Install Required">
+  </a>
+</p>
+
+<br>
+
+**👉 [Click here to launch TraceFinder](https://huggingface.co/spaces/askvs/tracefinder) 👈**
+
+<sub>No installation needed — just upload an image and get instant scanner identification!</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
 <table>
 <tr>
 <td>
@@ -313,7 +351,7 @@ Haar L1 decomposition extracts scanner-specific noise
 </td>
 <td>
 
-### 🚀 Quick Start
+### 🚀 Run Locally
 
 ```bash
 streamlit run landing_page.py
