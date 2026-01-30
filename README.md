@@ -326,9 +326,13 @@ Haar L1 decomposition extracts scanner-specific noise
 
 <br>
 
-**👉 [Click here to launch TraceFinder](https://huggingface.co/spaces/askvs/tracefinder) 👈**
+<p align="center">
+<b>👉 <a href="https://huggingface.co/spaces/askvs/tracefinder">Click here to launch TraceFinder</a> 👈</b>
+</p>
 
+<p align="center">
 <sub>No installation needed — just upload an image and get instant scanner identification!</sub>
+</p>
 
 </td>
 </tr>
