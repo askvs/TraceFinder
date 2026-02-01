@@ -2,7 +2,7 @@
 """
 train_compare_models.py
 
-Train and compare 10 classifiers (including RandomForest and SVC) on your dataset,
+Train and compare 10 classifiers (including RandomForest and SVC) on dataset,
 save trained models and scaler to models/ and print comparison results.
 
 Usage:
@@ -46,10 +46,7 @@ TEST_SIZE = 0.20
 CV_FOLDS = 5
 
 def make_models():
-    """
-    Return a dict of name -> untrained sklearn estimator.
-    Contains 10 classifiers (including RandomForest and SVC).
-    """
+
     models = {
         "LogisticRegression": LogisticRegression(max_iter=1000, random_state=RANDOM_STATE, solver="lbfgs", multi_class="auto"),
         "KNeighbors": KNeighborsClassifier(n_neighbors=5),
